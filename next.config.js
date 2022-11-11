@@ -5,7 +5,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'images.punkapi.com',
-        port: '',
+        port: '*',
         pathname: '/**',
       },
     ],
