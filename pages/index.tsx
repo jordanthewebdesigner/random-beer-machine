@@ -60,7 +60,7 @@ export default function Home() {
             <p id="text">{beer?.description}</p>
 
           </a>
-          <button href="#" id="#new-quote"  onClick={getRandomBeer}>
+          <button  id="#new-quote"  onClick={getRandomBeer}>
             {beer?.image_url && <Image id="author" src={beer.image_url} alt={beer.name} width={200} height={500} /> || <p>Click to get a random beer!</p>}
           </button>
 
